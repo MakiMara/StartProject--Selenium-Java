@@ -10,6 +10,11 @@ public class HelloWorld
          System.setProperty("webdriver.chrome.driver", "/Users/marijanavukovic/Desktop/jAVAaUTOMATION/chromedriver 3");
          WebDriver driver=new ChromeDriver();
          driver.get("http://www.google.com");
-         driver.quit();
+        // driver.quit();
+
+         driver.get("https://rahulshettyacademy.com");
+         driver.getTitle();
+         System.out.println(driver.getTitle());
+
     }
 }
